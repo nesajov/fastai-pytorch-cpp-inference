@@ -32,3 +32,13 @@
 *.app
 
 # Folders
+.*/
+obj/
+.64/
+build/
+Release/
+Debug/
+
+# model files
+*.pkl
+*.pt
