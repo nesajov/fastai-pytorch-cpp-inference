@@ -2,6 +2,7 @@
 # PyTorch 1.0 inference in C++  using Microsoft Visual Studio 2019
 
 
+
 ## Description
 
 The repository provides an example how to go from an existing Pytorch model to a serialized representation that can be _loaded_ and _executed_ purely from C++ in Windows.
@@ -23,6 +24,7 @@ Run git clone https://github.com/nesajov/fastai-pytorch-cpp-inference.git in ord
 
 
 ## Pretrained Weights
+
 The model model is trained in fastai using the [Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/) by [O. M. Parkhi et al., 2012](http://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/parkhi12a.pdf) which features 12 cat breeds and 25 dogs breeds.
 
 ## Jupyter Notebook
