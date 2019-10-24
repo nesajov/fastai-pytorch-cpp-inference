@@ -9,7 +9,7 @@ The repository provides an example how to go from an existing Pytorch model to a
 
 It converts a pretrained fastai/PyTorch model to Torch Script.  
 Then, a C++ application loads serialized PyTorch model.
-Finaly, an image is presented to the model and classification results are displayed.   
+Finally, an image is presented to the model and classification results are displayed.   
 
 Run git clone https://github.com/nesajov/fastai-pytorch-cpp-inference.git in order to clone this repository. 
 
@@ -25,7 +25,7 @@ Run git clone https://github.com/nesajov/fastai-pytorch-cpp-inference.git in ord
 
 ## Pretrained Weights
 
-The model model is trained in fastai using the [Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/) by [O. M. Parkhi et al., 2012](http://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/parkhi12a.pdf) which features 12 cat breeds and 25 dogs breeds.
+The model is trained in fastai using the [Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/) by [O. M. Parkhi et al., 2012](http://www.robots.ox.ac.uk/~vgg/publications/2012/parkhi12a/parkhi12a.pdf) which features 12 cat breeds and 25 dogs breeds.
 
 ## Jupyter Notebook
 
